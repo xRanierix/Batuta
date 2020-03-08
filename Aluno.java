@@ -4,7 +4,13 @@ public class Aluno {
 
 	private String nome;
 	private int id;
-	private int idadde;
+	private int idade;
+	
+	public Aluno(String nome, int id, int idade) {
+        this.nome = nome;
+        this.id = id;
+        this.idade = idade;
+    }
 	
 	public String getNome() {
 		return nome;
