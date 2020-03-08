@@ -30,4 +30,7 @@ public class Aluno {
 		this.idade = idade;
 	}
 
+	public String getDados()  {
+      return "\nNome: " + nome + "\nId: " + id + "\nIdade: " + idade;
+    }
 }
